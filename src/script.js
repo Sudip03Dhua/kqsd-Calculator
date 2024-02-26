@@ -38,6 +38,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 } else if (value == "=") {
                     evaluteResult();
                 }
+                else if(value=="CE"){
+                    display.value=display.value.slice(0,-1);
+                }
     
                 else {
     
